@@ -382,7 +382,7 @@ body {
 
 .dishes__btn {
   position: absolute;
-  top: 33%;
+  top: 47%;
   border: none;
   outline: none;
   border-radius: 50%;
@@ -393,11 +393,13 @@ body {
 }
 
 .dishes__btn-prev {
-    left: 0;
+    /* left: 50px; */
+    left: clamp(0.31rem, calc(-0.25rem + 2.81vw), 3.13rem);
 }
 
 .dishes__btn-next {
-    right: 0;
+    /* right: 50px; */
+    right: clamp(-0.81rem, calc(-1.6rem + 3.94vw), 3.13rem);
 }
 
 .dishes__card {

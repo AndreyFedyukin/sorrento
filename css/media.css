@@ -324,14 +324,6 @@
     /* font-size: 37px; */
     font-size: clamp(1.56rem, calc(0.81rem + 3.75vw), 2.31rem);
   }
-
-  .dishes__btn-next {
-    right: -10px;
-  }
-
-  .dishes__btn-prev {
-    left: -5px;
-  }
 }
 
 @media (max-width: 500px) {
@@ -352,11 +344,6 @@
   /* section Dishes ********************************************* */
   .dishes__swiper {
     padding: 0 20px;
-  }
-
-  .dishes__btn-next {
-    right: -15px;
-    right: clamp(-1.37rem, calc(-2.15rem + 3.89vw), -0.94rem);
   }
 
   /* Block ********************************************* */
