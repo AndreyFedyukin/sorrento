@@ -1,3 +1,13 @@
+//! Блюр для меню
+window.addEventListener('scroll', () => {
+  const effect = document.querySelector('.menu-blur');
+  if (window.scrollY > 100) {
+    effect.classList.add('menu-effect');
+  } else {
+    effect.classList.remove('menu-effect');
+  }
+});
+
 //! Бургер ***************************
 document.addEventListener("DOMContentLoaded", () => {
   const headerBurger = document.querySelector(".header");
@@ -43,7 +53,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
-// подключение библиотеки swiper ***********************************************
+//! подключение библиотеки swiper ***********************************************
 let swiper = new Swiper(".gallery-swiper", {
   slidesPerView: 1,
   spaceBetween: 10,
@@ -82,7 +92,7 @@ let swiper = new Swiper(".gallery-swiper", {
   },
 });
 
-// подключение библиотеки swiper-2 ***********************************************
+//! подключение библиотеки swiper-2 ***********************************************
 let dishes = new Swiper(".dishes-swiper", {
   slidesPerView: 1,
   spaceBetween: 15,
