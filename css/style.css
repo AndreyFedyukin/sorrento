@@ -50,6 +50,7 @@ h6 {
 body {
   width: 100%;
   max-width: 100svw;
+  max-height: 100svh;
   min-height: 100svh;
   display: flex;
   flex-direction: column;
