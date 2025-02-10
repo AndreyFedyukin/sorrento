@@ -11,30 +11,9 @@ window.addEventListener('scroll', () => {
 //! Бургер ***************************
 document.addEventListener("DOMContentLoaded", () => {
   const headerBurger = document.querySelector(".header");
-  const bodyBurger = document.body;
 
   const toggleBurger = () => {
-    if (headerBurger.classList.contains("open")) {
-      closeBurger();
-    } else {
-      openBurger();
-    }
-  };
-
-  const openBurger = () => {
-    headerBurger.classList.add("open");
-    const pagePositionBurger = window.scrollY;
-    bodyBurger.classList.add("disable-scroll");
-    bodyBurger.dataset.position = pagePositionBurger;
-    bodyBurger.style.top = `-${pagePositionBurger}px`;
-  };
-
-  const closeBurger = () => {
-    headerBurger.classList.remove("open");
-    bodyBurger.classList.remove("disable-scroll");
-    window.scrollTo(0, parseInt(bodyBurger.dataset.position));
-    bodyBurger.style.top = "";
-    bodyBurger.dataset.position = "";
+    headerBurger.classList.toggle("open");
   };
 
   document.querySelector(".burger").addEventListener("click", (e) => {
@@ -44,11 +23,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
   document.querySelector(".menu").addEventListener("click", (e) => {
     e.stopPropagation();
+    if (e.target.classList.contains("menu-link")) {
+      headerBurger.classList.remove("open");
+    }
   });
 
   document.addEventListener("keydown", (e) => {
     if (e.key === "Escape") {
-      closeBurger();
+      headerBurger.classList.remove("open");
     }
   });
 });
