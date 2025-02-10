@@ -487,10 +487,6 @@ section,
   margin-bottom: 170px;
 }
 
-/* #block {
-  scroll-margin-top: 14rem;
-} */
-
 .block__wrapper {
   display: flex;
   flex-direction: row;
@@ -523,10 +519,6 @@ section,
 .delivery {
   margin-bottom: 170px;
 }
-
-/* #delivery {
-  scroll-margin-top: 14rem;
-} */
 
 .delivery__wrapper {
   display: flex;
@@ -591,10 +583,6 @@ section,
 }
 
 /* footer ********************************************* */
-/* #footer {
-  scroll-margin-top: 14rem;
-} */
-
 .footer__wrapper {
   margin-bottom: 100px;
 }
