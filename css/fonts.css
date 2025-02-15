@@ -1,0 +1,28 @@
+/* AmericanTypewriter */
+@font-face {
+    font-family: 'AmericanTypewriter';
+    src: url('../fonts/AmericanTypewriter.eot');
+    src: local('AmericanTypewriter'),
+        url('../fonts/AmericanTypewriter.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AmericanTypewriter.woff2') format('woff2'),
+        url('../fonts/AmericanTypewriter.woff') format('woff'),
+        url('../fonts/AmericanTypewriter.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Formular */
+@font-face {
+    font-family: 'Formular';
+    src: url('../fonts/formular-regular-trial.eot');
+    src: local('Formular'),
+        url('../fonts/formular-regular-trial.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/formular-regular-trial.woff2') format('woff2'),
+        url('../fonts/formular-regular-trial.woff') format('woff'),
+        url('../fonts/formular-regular-trial.ttf') format('truetype'),
+        url('../fonts/formular-regular-trial.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}

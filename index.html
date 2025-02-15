@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <title>Сорренто</title>
+
+  <!-- подключение favicon -->
+  <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+
+  <!-- подключение normalize.css -->
+  <link rel="stylesheet" href="./css/normalize.css">
+
+  <!-- подключение шрифтов -->
+  <link rel="stylesheet" href="./css/fonts.css">
+
+  <!-- подключение swiper -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+  <!-- подключение файлов стилей -->
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/media.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__wrapper">
+      <div class="menu__wrapper menu-blur">
+        <div class="menu__burger">
+          <button id="burger" class="burger header__burger" aria-label="Burger menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+
+        <nav class="menu menu__header" id="menu" aria-label="Bar">
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a href="#about" class="menu__link menu-link">О&#160;нас</a>
+            </li>
+
+            <li class="menu__item">
+              <a href="#gallery" class="menu__link menu-link">Галерея</a>
+            </li>
+
+            <li class="menu__item">
+              <a href="#block" class="menu__link menu-link">Меню</a>
+            </li>
+
+            <li class="menu__item">
+              <a href="#dishes" class="menu__link menu-link">Популярные&#160;блюда</a>
+            </li>
+
+            <li class="menu__item">
+              <a href="#delivery" class="menu__link menu-link">Доставка</a>
+            </li>
+
+            <li class="menu__item">
+              <a href="#footer" class="menu__link menu-link">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <a href="index.html" class="header__logo">
+        <picture>
+          <source srcset="./img/logo.webp" type="image/webp">
+          <img src="./img/logo.png" class="header__logo-img" alt="Images Logo" loading="lazy" width="667" height="381">
+        </picture>
+      </a>
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="main__wrapper">
+      <section id="about" class="about">
+        <img src="./img/svg/branch.svg" class="about__branch" alt="Ветка декор">
+
+        <div class="container">
+          <div class="about__wrapper">
+            <div class="about__decor">
+              <h1 class="about__title">О нас</h1>
+              <div class="about__circle"></div>
+            </div>
+
+            <p class="about__text">
+              Сорренто - Delizioso! Gustoso! Favoloso! Настоящая Италия - сочная, яркая, эмоциональная и потрясающе
+              вкусная - еще никогда не была так близко. В «Сорренто» все располагает к теплым, душевным дружеским и
+              семейным посиделкам.
+            </p>
+
+            <p class="about__text">
+              В меню - итальянская классика, приготовленная по современным техникам, но с сохранением аутентичных
+              средиземноморских мотивов. Все рецепты бренд-шеф Владимир Земляной привез из путешествия по Италии. Гости
+              смогут попробовать утонченные итальянские закуски, равиоли, пиццу, лазанью и легендарное мороженое
+              джелато.
+            </p>
+
+            <p class="about__text">
+              Все блюда в ресторане - собственного приготовления, в том числе паста, тесто для равиоли и пиццы, десерты.
+              Здесь угостят домашним лимончелло, как и принято в Италии, и легендарным коктейлем негрони, который
+              специально выдерживают в деревянной бочке.
+            </p>
+
+            <p class="about__text">
+              Сорренто - это возможность получить уникальный гастрономический опыт и погрузиться в самобытную атмосферу
+              средиземноморского побережья, не покидая Ташкент.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="gallery">
+        <div class="gallery">
+          <div class="container">
+            <div class="gallery__decor">
+              <h2 class="gallery__title">Галерея</h2>
+              <div class="gallery__circle"></div>
+            </div>
+
+            <div class="swiper gallery-swiper">
+              <div class="gallery__wrapper swiper-wrapper">
+                <picture class="gallery__picture swiper-slide">
+                  <source srcset="./img/gallery/gallery-1.avif" type="image/avif">
+                  <source srcset="./img/gallery/gallery-1.webp" type="image/webp">
+                  <img src="./img/gallery/gallery-1.jpg" class="gallery__picture-img" alt="Фото галереи" loading="lazy"
+                    width="364" height="243">
+                </picture>
+
+                <picture class="gallery__picture swiper-slide">
+                  <source srcset="./img/gallery/gallery-2.avif" type="image/avif">
+                  <source srcset="./img/gallery/gallery-2.webp" type="image/webp">
+                  <img src="./img/gallery/gallery-2.jpg" class="gallery__picture-img" alt="Фото галереи" loading="lazy"
+                    width="364" height="243">
+                </picture>
+
+                <picture class="gallery__picture swiper-slide">
+                  <source srcset="./img/gallery/gallery-3.avif" type="image/avif">
+                  <source srcset="./img/gallery/gallery-3.webp" type="image/webp">
+                  <img src="./img/gallery/gallery-3.jpg" class="gallery__picture-img" alt="Фото галереи" loading="lazy"
+                    width="364" height="243">
+                </picture>
+
+                <picture class="gallery__picture swiper-slide">
+                  <source srcset="./img/gallery/gallery-4.avif" type="image/avif">
+                  <source srcset="./img/gallery/gallery-4.webp" type="image/webp">
+                  <img src="./img/gallery/gallery-4.jpg" class="gallery__picture-img" alt="Фото галереи" loading="lazy"
+                    width="364" height="243">
+                </picture>
+
+                <!-- Блоки для проверки работы слайдера ********************** -->
+                <picture class="gallery__picture swiper-slide">
+                  <source srcset="./img/gallery/gallery-1.avif" type="image/avif">
+                  <source srcset="./img/gallery/gallery-1.webp" type="image/webp">
+                  <img src="./img/gallery/gallery-1.jpg" class="gallery__picture-img" alt="Фото галереи" loading="lazy"
+                    width="364" height="243">
+                </picture>
+
+                <picture class="gallery__picture swiper-slide">
+                  <source srcset="./img/gallery/gallery-2.avif" type="image/avif">
+                  <source srcset="./img/gallery/gallery-2.webp" type="image/webp">
+                  <img src="./img/gallery/gallery-2.jpg" class="gallery__picture-img" alt="Фото галереи" loading="lazy"
+                    width="364" height="243">
+                </picture>
+
+                <picture class="gallery__picture swiper-slide">
+                  <source srcset="./img/gallery/gallery-3.avif" type="image/avif">
+                  <source srcset="./img/gallery/gallery-3.webp" type="image/webp">
+                  <img src="./img/gallery/gallery-3.jpg" class="gallery__picture-img" alt="Фото галереи" loading="lazy"
+                    width="364" height="243">
+                </picture>
+
+                <picture class="gallery__picture swiper-slide">
+                  <source srcset="./img/gallery/gallery-4.avif" type="image/avif">
+                  <source srcset="./img/gallery/gallery-4.webp" type="image/webp">
+                  <img src="./img/gallery/gallery-4.jpg" class="gallery__picture-img" alt="Фото галереи" loading="lazy"
+                    width="364" height="243">
+                </picture>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Навигация -->
+          <button class="gallery__btn gallery__btn-prev">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50px"
+              height="50px">
+              <image x="0px" y="0px" width="50px" height="50px"
+                xlink:href="data:img/png;base64,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" />
+            </svg>
+          </button>
+          <button class="gallery__btn gallery__btn-next">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50px"
+              height="50px">
+              <image x="0px" y="0px" width="50px" height="50px"
+                xlink:href="data:img/png;base64,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" />
+            </svg>
+          </button>
+
+        </div>
+      </section>
+
+      <section id="dishes">
+        <div class="dishes">
+          <div class="container">
+            <div class="dishes__decor">
+              <h2 class="dishes__title">Популярные блюда</h2>
+              <div class="dishes__circle"></div>
+            </div>
+
+            <div class="swiper dishes__swiper dishes-swiper">
+              <div class="dishes__wrapper swiper-wrapper">
+                <!-- 1-я карточка -->
+                <!-- <div class="dishes__card swiper-slide">
+                  <picture class="dishes__picture">
+                    <source srcset="./img/dishes/dishes-1.avif" type="image/avif">
+                    <source srcset="./img/dishes/dishes-1.webp" type="image/webp">
+                    <img src="./img/dishes/dishes-1.jpg" class="dishes__picture-img" alt="Фото блюда" loading="lazy"
+                      width="317" height="311">
+                  </picture>
+
+                  <div class="dishes__block">
+                    <p class="dishes__name">
+                      Ассорти из кавказских сыров
+                    </p>
+
+                    <p class="dishes__info">
+                      <span class="dishes__weight">200/25&#160;г</span>
+
+                      <span class="dishes__price">46&#160;000</span>
+                    </p>
+                  </div>
+                </div> -->
+
+                <!-- 2-я карточка -->
+                <!-- <div class="dishes__card swiper-slide">
+                  <picture class="dishes__picture">
+                    <source srcset="./img/dishes/dishes-2.avif" type="image/avif">
+                    <source srcset="./img/dishes/dishes-2.webp" type="image/webp">
+                    <img src="./img/dishes/dishes-2.jpg" class="dishes__picture-img" alt="Фото блюда" loading="lazy"
+                      width="317" height="311">
+                  </picture>
+
+                  <div class="dishes__block">
+                    <p class="dishes__name">
+                      Хачапури с сыром<br>и зеленью
+                    </p>
+
+                    <p class="dishes__info">
+                      <span class="dishes__weight">495&#160;г</span>
+
+                      <span class="dishes__price">59&#160;000</span>
+                    </p>
+                  </div>
+                </div> -->
+
+                <!-- 3-я карточка -->
+                <!-- <div class="dishes__card swiper-slide">
+                  <picture class="dishes__picture">
+                    <source srcset="./img/dishes/dishes-3.avif" type="image/avif">
+                    <source srcset="./img/dishes/dishes-3.webp" type="image/webp">
+                    <img src="./img/dishes/dishes-3.jpg" class="dishes__picture-img" alt="Фото блюда" loading="lazy"
+                      width="317" height="311">
+                  </picture>
+
+                  <div class="dishes__block">
+                    <p class="dishes__name">
+                      Рулетики из баклажанов и перцев
+                    </p>
+
+                    <p class="dishes__info">
+                      <span class="dishes__weight">325&#160;г</span>
+
+                      <span class="dishes__price">65&#160;000</span>
+                    </p>
+                  </div>
+                </div> -->
+
+                <!-- 4-я карточка -->
+                <!-- <div class="dishes__card swiper-slide">
+                  <picture class="dishes__picture">
+                    <source srcset="./img/dishes/dishes-4.avif" type="image/avif">
+                    <source srcset="./img/dishes/dishes-4.webp" type="image/webp">
+                    <img src="./img/dishes/dishes-4.jpg" class="dishes__picture-img" alt="Фото блюда" loading="lazy"
+                      width="317" height="311">
+                  </picture>
+
+                  <div class="dishes__block">
+                    <p class="dishes__name">
+                      Хинкали с бараниной
+                    </p>
+
+                    <p class="dishes__info">
+                      <span class="dishes__weight">135&#160;г</span>
+
+                      <span class="dishes__price">75&#160;000</span>
+                    </p>
+                  </div>
+                </div> -->
+
+                <!-- 5-я карточка -->
+                <div class="dishes__card swiper-slide">
+                  <picture class="dishes__picture">
+                    <source srcset="./img/dishes/dishes-5.avif" type="image/avif">
+                    <source srcset="./img/dishes/dishes-5.webp" type="image/webp">
+                    <img src="./img/dishes/dishes-5.jpg" class="dishes__picture-img" alt="Фото блюда" loading="lazy"
+                      width="445" height="453">
+                  </picture>
+
+                  <div class="dishes__block">
+                    <p class="dishes__name">
+                      Горгонзола с грушей
+                    </p>
+
+                    <p class="dishes__info">
+                      <!-- <span class="dishes__weight"></span> -->
+
+                      <span class="dishes__price">127&#160;000</span>
+                    </p>
+                  </div>
+                </div>
+
+                <!-- 6-я карточка -->
+                <div class="dishes__card swiper-slide">
+                  <picture class="dishes__picture">
+                    <source srcset="./img/dishes/dishes-6.avif" type="image/avif">
+                    <source srcset="./img/dishes/dishes-6.webp" type="image/webp">
+                    <img src="./img/dishes/dishes-6.jpg" class="dishes__picture-img" alt="Фото блюда" loading="lazy"
+                      width="445" height="453">
+                  </picture>
+
+                  <div class="dishes__block">
+                    <p class="dishes__name">
+                      Казаречче с морепродуктами
+                    </p>
+
+                    <p class="dishes__info">
+                      <!-- <span class="dishes__weight"></span> -->
+
+                      <span class="dishes__price">165&#160;000</span>
+                    </p>
+                  </div>
+                </div>
+
+                <!-- 7-я карточка -->
+                <div class="dishes__card swiper-slide">
+                  <picture class="dishes__picture">
+                    <source srcset="./img/dishes/dishes-7.avif" type="image/avif">
+                    <source srcset="./img/dishes/dishes-7.webp" type="image/webp">
+                    <img src="./img/dishes/dishes-7.jpg" class="dishes__picture-img" alt="Фото блюда" loading="lazy"
+                      width="445" height="453">
+                  </picture>
+
+                  <div class="dishes__block">
+                    <p class="dishes__name">
+                      Лангустины по токански
+                    </p>
+
+                    <div class="dishes__info">
+                      <!-- <span class="dishes__weight"></span> -->
+
+                      <span class="dishes__price">212&#160;000</span>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- 8-я карточка -->
+                <div class="dishes__card swiper-slide">
+                  <picture class="dishes__picture">
+                    <source srcset="./img/dishes/dishes-8.avif" type="image/avif">
+                    <source srcset="./img/dishes/dishes-8.webp" type="image/webp">
+                    <img src="./img/dishes/dishes-8.jpg" class="dishes__picture-img" alt="Фото блюда" loading="lazy"
+                      width="445" height="453">
+                  </picture>
+
+                  <div class="dishes__block">
+                    <p class="dishes__name">
+                      Павлова с клубникой
+                    </p>
+
+                    <p class="dishes__info">
+                      <!-- <span class="dishes__weight"></span> -->
+
+                      <span class="dishes__price">65&#160;000</span>
+                    </p>
+                  </div>
+                </div>
+
+                <!-- 9-я карточка -->
+                <div class="dishes__card swiper-slide">
+                  <picture class="dishes__picture">
+                    <source srcset="./img/dishes/dishes-9.avif" type="image/avif">
+                    <source srcset="./img/dishes/dishes-9.webp" type="image/webp">
+                    <img src="./img/dishes/dishes-9.jpg" class="dishes__picture-img" alt="Фото блюда" loading="lazy"
+                      width="445" height="453">
+                  </picture>
+
+                  <div class="dishes__block">
+                    <p class="dishes__name">
+                      Салат с тунцом и горчичным соусом
+                    </p>
+
+                    <p class="dishes__info">
+                      <!-- <span class="dishes__weight"></span> -->
+
+                      <span class="dishes__price">165&#160;000</span>
+                    </p>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <!-- Навигация -->
+            <button class="dishes__btn dishes__btn-prev">
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50px"
+                height="50px">
+                <image x="0px" y="0px" width="50px" height="50px"
+                  xlink:href="data:img/png;base64,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" />
+              </svg>
+            </button>
+            <button class="dishes__btn dishes__btn-next">
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50px"
+                height="50px">
+                <image x="0px" y="0px" width="50px" height="50px"
+                  xlink:href="data:img/png;base64,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" />
+              </svg>
+            </button>
+
+          </div>
+        </div>
+      </section>
+
+      <div id="block" class="block">
+        <div class="container">
+          <div class="block__wrapper">
+            <a href="" class="block__link">Завтраки</a>
+            <a href="" class="block__link">Кухня</a>
+            <a href="" class="block__link">Бар</a>
+            <a href="" class="block__link">Вино</a>
+            <a href="" class="block__link">Сезонное&#160;меню</a>
+          </div>
+        </div>
+      </div>
+
+      <div id="delivery" class="delivery">
+        <div class="container">
+          <div class="delivery__wrapper">
+            <div class="delivery__card card-1">
+              <picture class="delivery__picture">
+                <source srcset="./img/delivery/delivery-1.webp" type="image/webp">
+                <img src="./img/delivery/delivery-1.png" class="delivery__picture-img" alt="Delivery Logo"
+                  loading="lazy" width="304" height="103">
+              </picture>
+              <a href="https://6h6s.adj.st/1/partner?partnerId=5617bf3d-59ce-4059-9bfb-5cab0a8063c1&adj_t=1bvh75j2&adjust_reftag=cyTeY0k0MXOdZ&adjust_t=1bvh75j2&adjust_iredirect=https%3A%2F%2Fapps.apple.com%2Fapp%2Fid1665523197%3Fmt%3D8&adjust_notrack=1"
+                class="delivery__btn" target="_blank">
+                Заказать
+              </a>
+            </div>
+
+            <div class="delivery__card card-2">
+              <picture class="delivery__picture">
+                <source srcset="./img/delivery/delivery-2.webp" type="image/webp">
+                <img src="./img/delivery/delivery-2.png" class="delivery__picture-img" alt="Delivery Logo"
+                  loading="lazy" width="218" height="107">
+              </picture>
+              <a href="https://eda.yandex.ru/showcaptcha?cc=1&mt=1E750B470D34270BDCB0058004E392CC5CE19EB5764FD0B14D90D454433A5F247B6401404596B3D83F4DEED72318004ACC590557691C51D5FB9EE449E1B9A980A228C21C6E2990377F4EDBEC93AB17BB3B31B1C4FCAA43137E9A3D1BFCA3E21B0BCE95B4C289E7156BC55DCC116F75E7A087EAF8BAA17489024F52A6EF70E0B77987079C37C649B5C4752C43CCC6015A69952778CD8E8C9683DE44E97AA55B46D36564A834056C5F1F4DC2A939BE1E692E3BE117A675C0845C6AE644EB07F2CCDCD83388DF61EA61CCC1DB77288FF613D91A6525A43AA23FC51392ACD7&retpath=aHR0cHM6Ly9lZGEueWFuZGV4LnJ1L3Jlc3RhdXJhbnQvX3NvcnJlbnRvP3V0bV9jYW1wYWlnbj1zdXBlcmFwcF90YXhpX3dlYiZ1dG1fbWVkaXVtPXJlZmVycmFsJnV0bV9zb3VyY2U9cnN0X3NoYXJlZF9saW5r_feb599e286a3d414062cf12ad7d4da6c&t=2/1739431558/19476ecf130238990c509d4bb252e04a&u=6050811458187360453&s=19625ec2d20a40da103c8eb77d7d9df0"
+                class="delivery__btn" target="_blank">
+                Заказать
+              </a>
+            </div>
+
+            <div class="delivery__card card-3">
+              <picture class="delivery__picture">
+                <source srcset="./img/delivery/delivery-3.webp" type="image/webp">
+                <img src="./img/delivery/delivery-3.png" class="delivery__picture-img" alt="Delivery Logo"
+                  loading="lazy" width="218" height="108">
+              </picture>
+              <a href="https://wolt.com/uz/uzb/tashkent/restaurant/sorrento-uzb" class="delivery__btn" target="_blank">
+                Заказать
+              </a>
+            </div>
+
+            <div class="delivery__card card-4">
+              <picture class="delivery__picture">
+                <source srcset="./img/delivery/delivery-4.webp" type="image/webp">
+                <img src="./img/delivery/delivery-4.png" class="delivery__picture-img" alt="Delivery Logo"
+                  loading="lazy" width="400" height="95">
+              </picture>
+              <a href="https://eda.yandex.ru/showcaptcha?mt=8E5D3D8E72F87B51AE392495AA942CBBDECB4095A891CB24EFFBD830C8DB6F1F3DEB7857855963DE9367622184003D66367FE233F7D3362D5B94C11D6B6DC82CB617736880219FBFD7D6F178744B4B8726AC1D076C879CBBF79900422DAADCFCF182958DB4F49B98AB645F3007FF876C3F2D9818EC49E1489947E1FE57F0867C23E434600B141F9482C4F0FFC7B052E9A0A54E702C5527C3E659B55BCF78FE7C5FD82DD26297C9EB416CF87B2F1D945150BFF8B681FAA19945289047EA3908F703607251646C070EF40AF5370295D6612A158AFA01CF6F67B092C020E2&retpath=aHR0cHM6Ly9lZGEueWFuZGV4LnJ1L3Jlc3RhdXJhbnQvX3NvcnJlbnRvP3V0bV9jYW1wYWlnbj1leHByZXNzMjRfYXBwX2lvcyZ1dG1fbWVkaXVtPXJlZmVycmFsJnV0bV9zb3VyY2U9cnN0X3NoYXJlZF9saW5r_ed2d61b8e1fa38c390aa14eb74e15be5&t=2/1739431593/704b6311753779f656450eeddce2595a&u=6050813830754138329&s=e6c828320c2f1c7f006bb1908115a884"
+                class="delivery__btn" target="_blank">
+                Заказать
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <footer id="footer" class="footer">
+    <div class="container">
+      <div class="footer__wrapper">
+        <div class="footer__info">
+          <a href="tel:+998500510101" class="footer__phone" aria-label="Телефон" target="_blank">
+            <img src="./img/svg/phone.svg" class="footer__phone-img" alt="Images Phone">
+            &#160;+998&#160;50&#160;051&#160;01&#160;01
+          </a>
+
+          <a href="index.html" class="footer__logo" aria-label="Логотип">
+            <picture>
+              <source srcset="./img/logo.webp" type="image/webp">
+              <img src="./img/logo.png" class="footer__logo-img" alt="Images Logo" loading="lazy" width="338"
+                height="193">
+            </picture>
+          </a>
+
+          <a href="https://www.instagram.com/sorrento.tashkent" class="footer__site" aria-label="Instagram"
+            target="_blank">
+            <img src="./img/svg/site.svg" class="footer__site-img" alt="Images Site">
+            &#160;sorrento.tashkent
+          </a>
+
+          <div class="footer__circle"></div>
+        </div>
+
+        <nav class="footer__menu" id="footer-menu" aria-label="Footer Bar">
+          <ul class="footer__menu-list">
+            <li class="footer__menu-item">
+              <a href="#block" class="footer__menu-link">Меню</a>
+            </li>
+
+            <li class="footer__menu-item">
+              <a href="#about" class="footer__menu-link">О&#160;ресторане</a>
+            </li>
+
+            <li class="footer__menu-item">
+              <a href="#gallery" class="footer__menu-link">Галерея</a>
+            </li>
+
+            <li class="footer__menu-item">
+              <a href="#delivery" class="footer__menu-link">Доставка</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <!-- подключение библиотеки swiper -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- подключение основного файла main.js -->
+  <script defer src="js/main.js"></script>
+</body>
+
+</html>
