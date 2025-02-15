@@ -15,13 +15,13 @@
 /* Formular */
 @font-face {
     font-family: 'Formular';
-    src: url('../fonts/formular-regular-trial.eot');
+    src: url('../fonts/formular-regular.eot');
     src: local('Formular'),
-        url('../fonts/formular-regular-trial.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/formular-regular-trial.woff2') format('woff2'),
-        url('../fonts/formular-regular-trial.woff') format('woff'),
-        url('../fonts/formular-regular-trial.ttf') format('truetype'),
-        url('../fonts/formular-regular-trial.otf') format('opentype');
+        url('../fonts/formular-regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/formular-regular.woff2') format('woff2'),
+        url('../fonts/formular-regular.woff') format('woff'),
+        url('../fonts/formular-regular.ttf') format('truetype'),
+        url('../fonts/formular-regular.otf') format('opentype');
     font-weight: 400;
     font-style: normal;
     font-display: swap;
