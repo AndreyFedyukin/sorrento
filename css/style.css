@@ -286,6 +286,7 @@ section,
   line-height: 1.2;
   color: var(--color-text);
   text-align: justify;
+  hyphens: auto;
 }
 
 .about__text:not(:last-child) {
