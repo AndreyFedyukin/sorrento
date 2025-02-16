@@ -12,16 +12,14 @@
     font-display: swap;
 }
 
-/* Formular */
 @font-face {
     font-family: 'Formular';
-    src: url('../fonts/formular-regular.eot');
+    src: url('../fonts/Formular.eot');
     src: local('Formular'),
-        url('../fonts/formular-regular.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/formular-regular.woff2') format('woff2'),
-        url('../fonts/formular-regular.woff') format('woff'),
-        url('../fonts/formular-regular.ttf') format('truetype'),
-        url('../fonts/formular-regular.otf') format('opentype');
+        url('../fonts/Formular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Formular.woff2') format('woff2'),
+        url('../fonts/Formular.woff') format('woff'),
+        url('../fonts/Formular.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
     font-display: swap;
