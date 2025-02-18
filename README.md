@@ -1,6 +1,6 @@
 ![Ссылка на изображение](https://andreyfedyukin.github.io/sorrento/img/favicon/sorrento.png)
 
-# Sorrento
+# Sorrento - ресторан итальянской кухни в Ташкенте
 <br>
 ## Одностраничный сайт по заказу Компании "Rus2"
 
