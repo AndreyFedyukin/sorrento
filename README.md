@@ -15,3 +15,7 @@
 - JavaScript
 - Swiper
 - methodology BEM
+
+---
+
+Исходный макет - Adobe Photoshop
